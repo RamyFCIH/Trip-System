@@ -1,0 +1,278 @@
+﻿
+@{
+    ViewBag.Title = "PassengerPanel";
+    Layout = "~/Views/Shared/SharedPassengerPanel.cshtml";
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+       .features {
+    
+    background-color: #EEE;
+    padding:40px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+        .progress {
+            height: 32px;
+        }
+
+        .skills-progress {
+            margin-top: 37px;
+        }
+
+        .offers {
+            margin-top: 10px;
+            background-color: #EEE;
+            padding-bottom: 30px;
+            min-height: 550px;
+        }
+
+            .offers .offers-info {
+                background-color: #fff;
+                padding: 50px;
+            }
+
+        .offers-info .p2 h3 {
+            border-radius: 50%;
+            background-color: #EEE;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="dashboard">
+            <h1>Passenger Dashboard</h1>
+        </div>
+    </div>
+
+    
+    <!--start section about us -->
+    <section class="about " id="about">
+        <div class="container">
+            <h2 class="text-center">Learn More About Us</h2>
+            <div class="line">
+                <span></span>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <h3>Welcome to Fire Line Company where you can easily book your journey.</h3>
+                    <p class="lead">Welcome to our online bus reservation system where you can easily book your journey to any available city on our system.Just Follow the instuctions to book it successfully.Also make an account in order to interact easily with you.</p>
+                    <button class="btn btn-success  wow bounceInLeft" data-wow-duration="2s">Learn More </button>
+
+                </div>
+
+                <div class="col-lg-4  col-lg-offset-2">
+
+                    <img src="../img/KNznCVE.jpg" width="100%" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--End section about us -->
+    <!--start section features -->
+    <section class="features text-center" id="features">
+        <div class="container">
+            <h2>Our Features</h2>
+
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feat wow bounceInLeft" data-wow-offset="300">
+                    <span class="fa fa-suitcase fa-2x"></span>
+                    <h4>Extra Bags</h4>
+                    <p class="hvr-pulse">This is our first feature where you can take extra bags as you want without any restrictions.Also there is a very special service where you can transfer your bags on a private bus if there are a lot of weight. </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feat wow bounceInUp" data-wow-offset="300">
+                    <span class="fa fa-user-secret fa-3x"></span>
+                    <h4>Safe Transactions</h4>
+                    <p class="hvr-hang">With Fire Line you can securely made your transactions on our system without any fear of hacking or even any try of swindle.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feat wow bounceInDown" data-wow-offset="300">
+                    <span class="fa fa-paypal fa-3x"></span>
+                    <h4>Online Payment</h4>
+                    <p class="hvr-pulse">
+                        Also with our system you can pay the price of your ticket online using one of the most securely systems of money transctions which is "PAYPAL".
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 ">
+                <div class="feat wow bounceInRight" data-wow-offset="300">
+                    <span class="fa fa-file fa-2x"></span>
+                    <h4> Full Detailed Report</h4>
+                    <p class="hvr-hang">When you finish your reservation to a specific bus .you wil get a full detailed report about your seat  number,bus,and the transactions happened on your account.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!--start section offers-->
+
+    <section class="offers text-center" id="offers">
+
+        <div class="line">
+            <span></span>
+        </div>
+        <div class="container">
+            <h2>Join Fire Line Offers Now !</h2>
+            <p class="lead">Here are our offers for you.You can select any one of them as you like.In our company we have daily,monthly and annnual offers for you.And our surprise for you is the premium offers.What are you waiting for ? Go ahead for it.</p>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="offers-info wow fadeInDown" data-wow-duration="2s" data-wow-offset="300">
+                        <div class="p1">
+                            <h3>Daily Plan</h3>
+                        </div>
+                        <div class="p2">
+                            <h3 class="text-info center-block">20 $</h3>
+                        </div>
+
+
+                        <div class="p3">
+                            <ul class="list-unstyled">
+                                <li>1$ discount on each extra bag</li>
+                                <li>20 $ discount on the ticket </li>
+                                <li>Additional services are for free</li>
+
+                            </ul>
+
+                        </div>
+                        <div class="p4">
+
+                            <button class="btn btn-info">Order Now</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="offers-info wow fadeInUp" data-wow-duration="2s" data-wow-offset="300">
+                        <div class="p1">
+                            <h3>Monthly Plan</h3>
+
+                        </div>
+                        <div class="p2">
+                            <h3 class="text-primary">35 $ </h3>
+
+                        </div>
+
+
+                        <div class="p3">
+                            <ul class="list-unstyled">
+                                <li>2$ discount on each extra bag</li>
+                                <li>28 $ discount on the ticket </li>
+                                <li>Additional services are for free</li>
+
+                            </ul>
+
+                        </div>
+                        <div class="p4">
+
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3">
+
+                    <div class="offers-info wow fadeInDown" data-wow-duration="2s" data-wow-offset="300">
+                        <div class="p1">
+                            <h3>Quarter Plan</h3>
+
+                        </div>
+                        <div class="p2">
+                            <h3 class="text-success">40 $</h3>
+
+                        </div>
+
+
+                        <div class="p3">
+                            <ul class="list-unstyled">
+                                <li>1$ discount on each extra bag</li>
+                                <li>20 $ discount on the ticket </li>
+                                <li>Additional services are for free</li>
+
+                            </ul>
+
+                        </div>
+                        <div class="p4">
+
+                            <button class="btn btn-success">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="offers-info wow fadeInUp" data-wow-duration="2s" data-wow-offset="300">
+                        <div class="p1">
+                            <h3>Annual Plan</h3>
+
+                        </div>
+                        <div class="p2">
+                            <h3 class="text-danger">45 $</h3>
+
+                        </div>
+
+
+                        <div class="p3">
+                            <ul class="list-unstyled">
+                                <li>1$ discount on each extra bag</li>
+                                <li>20 $ discount on the ticket </li>
+                                <li>Additional services are for free</li>
+
+                            </ul>
+
+                        </div>
+                        <div class="p4">
+
+                            <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!--End section offers-->
+
+
+
+
+
+
+</body>
+</html>
